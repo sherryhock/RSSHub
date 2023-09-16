@@ -25,7 +25,7 @@
 
 ## Yoasobi Official {#yoasobi-official}
 
-### News & Biography {#yoasobi-official-news-%26-biography}
+### News & Biography {#yoasobi-official-news-biography}
 
 <Route author="Kiotlin" example="/yoasobi-music/info/news" path="/yoasobi-music/info/:category?" paramsDesc={['`news`, `biography`']} radar="1" rssbud="1" />
 
@@ -36,6 +36,12 @@
 ### Media {#yoasobi-official-media}
 
 <Route author="Kiotlin" example="/yoasobi-music/media" path="/yoasobi-music/media" radar="1" rssbud="1" />
+
+## YouTube Live {#youtube-live}
+
+### Live {#youtube-live-live}
+
+<Route author="sussurr127" path="/youtube/live/:username/:embed?" example="/youtube/live/@GawrGura" paramsDesc={['YouTuber id', 'Default to embed the video, set to any value to disable embedding']} radar="1"/>
 
 ## 哔哩哔哩直播 {#bi-li-bi-li-zhi-bo}
 
